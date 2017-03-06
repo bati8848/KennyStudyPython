@@ -1,3 +1,2 @@
-print('Kennys 1st Git commitment')
-
-print('Kennys 2nd Git commitment')
+a='my name is Kenny'
+print(a.replace('Kenny','Harvey'))

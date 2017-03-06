@@ -2,6 +2,7 @@ a=999
 b='1234567890'
 c="ABCDEFGHI"
 
+print(type(b))
 # #print(str(a)+b)         #类型转换
 # #print(a+int(b))         #类型转换
 #
