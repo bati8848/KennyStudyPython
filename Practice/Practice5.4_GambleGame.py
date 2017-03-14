@@ -1,15 +1,26 @@
 import random
 
+
 resultList = [0,0,0]
 
 
 def checkQuit(input):
+    '''
+    Test the Doc strings 111 for checkQuit
+    Test the Doc strings 222 for checkQuit
+    Test the Doc strings 333 for checkQuit
+    Test the Doc strings 444 for checkQuit
+    '''
     if str(input) == 'Q':
         return True
     else:
         return False
 
+
 def tryThrow():
+    '''
+        Test the Doc strings for tryThrow
+    '''
     a = random.randrange(1,7)
     b = random.randrange(1,7)
     c = random.randrange(1,7)
@@ -76,5 +87,8 @@ while (Cash_Left >= 1):
 if (Cash_Left == 0):
     print('你的钱输光了，游戏结束！')
 
+
+print(checkQuit.__doc__)
+print(tryThrow.__doc__)
 
 
