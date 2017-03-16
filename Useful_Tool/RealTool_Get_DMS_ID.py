@@ -1,4 +1,4 @@
-path_folder = 'C:\\temp\TE_Payment.ini'
+path_folder = r'C:\temp\TE_Payment.ini'
 
 file = open(path_folder)
 
